@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Heebo", Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.fondo-cabecera {
+    background: #5e42a6;
+}
+
+.header-top {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    overflow: visible;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.logo {
+    margin-bottom: 15px;
+    z-index: 11;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+    width: 90px;    
+    height: auto;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin: 0 auto 1rem auto;
+    max-width: 900px;
+    padding: 0 20px;
+    z-index: 11;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.hero-text {
+    font-size: 2rem;
+    margin: 0 auto;
+    max-width: 900px;
+    line-height: 1;
+    z-index: 21;
+    transform: none;
+    color: #fec110;
+    font-weight: bold;
+}
+
+.wave {
+    position: absolute;
+
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+    transform: translatey(0px);
+}
+
+.contenido {
+    background: linear-gradient(0deg,rgba(94, 66, 166, 1) 0%, rgba(183, 78, 145, 0) 100%);
+    background-image: url("img/imagen1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.borde {
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 88% 12% 86% 14% / 19% 90% 10% 81%;
+    margin: 2.5rem auto 4rem auto;
+    width: 80%;
+}
+
+.oferta {
+    background-color: #b74e91;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid #fec110;
+    border-radius: 88% 12% 86% 14% / 19% 90% 10% 81%;
+    text-transform: uppercase;
+}
+
+.oferta h2 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.oferta p {
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+}
+
+.promocion {
+    background-color: #fec110;
+    position: absolute;
+    width: 30%;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    border-radius: 50px 50px 50px 156px / 50px 50px 50px 81px;
+}
+
+.promocion h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.2rem auto;
+}
+
+.formulario {
+    background: linear-gradient(20deg,#5e42a6 0%, #b74e91 98%);
+    position: relative;
+    width: 80%;
+    padding: 1rem 2rem;
+    margin: 2.5rem auto;
+    border: 1px solid #fec110;
+    border-radius: 25px;
+}
+
+.formulario input {
+    display: block;
+    width: 100%;
+    height: 2.4rem;
+    margin: 1rem auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.boton {
+    background-color: #b74e91;
+    border-color: #b74e91;
+    color: #fec110;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .hero-title{
+        font-size: 2.6rem;
+    }
+
+    .contenido {
+        padding-top: 10rem;
+    }
+
+    .contenido-main {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .borde {
+        width: 35%;
+        margin: auto;
+    }
+
+    .oferta {
+        padding: 2rem;
+    }
+
+    .oferta h2 {
+        font-size: 2.5rem;
+    }
+
+    .oferta p {
+        font-size: 1.5rem;
+    }
+
+    .promocion h3 {
+        font-size: 1.5rem;
+        margin: 0.5rem auto;
+    }
+
+    .contenedor-formulario {
+        width: 45%;
+    }
+
+    .formulario {
+        margin: 2rem;
+    }
+}
