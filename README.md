@@ -1,2 +1,1 @@
-# landing-page-tienda
-
+# Landing Page WordPress formaciona
