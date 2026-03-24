@@ -39,8 +39,8 @@ html, body {
 }
 
 .hero-title {
-    font-size: 3rem;
-    margin: 0 auto 1rem auto;
+    font-size: 2.5rem;
+    margin: 0 auto 2rem auto;
     max-width: 900px;
     padding: 0 20px;
     z-index: 11;
@@ -49,8 +49,8 @@ html, body {
 }
 
 .hero-text {
-    font-size: 2rem;
-    margin: 0 auto;
+    font-size: 1.8rem;
+    margin: 1rem;
     max-width: 900px;
     line-height: 1;
     z-index: 21;
@@ -61,7 +61,6 @@ html, body {
 
 .wave {
     position: absolute;
-
     width: 100%;
     height: 80px;
     z-index: 1;
@@ -82,8 +81,8 @@ html, body {
     padding: 5px;
     border: 2px solid #fff;
     border-radius: 88% 12% 86% 14% / 19% 90% 10% 81%;
-    margin: 2.5rem auto 4rem auto;
-    width: 80%;
+    margin: 2.5rem auto 5.5rem auto;
+    width: 90%;
 }
 
 .oferta {
@@ -137,6 +136,19 @@ html, body {
     border-radius: 25px;
 }
 
+.titulo-formulario {
+    background-color: #fec110;
+    text-transform: uppercase;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 25px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
 .formulario input {
     display: block;
     width: 100%;
@@ -146,6 +158,12 @@ html, body {
     border-radius: 5px;
 }
 
+.aviso {
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 12px;
+}
+
 .boton {
     background-color: #b74e91;
     border-color: #b74e91;
@@ -153,11 +171,18 @@ html, body {
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: bold;
+    cursor: pointer;
 }
 
 @media (min-width: 768px) {
     .hero-title{
-        font-size: 2.6rem;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-text {
+        font-size: 2rem;
+        margin: 0 auto;
     }
 
     .contenido {
@@ -170,8 +195,8 @@ html, body {
     }
 
     .borde {
-        width: 35%;
-        margin: auto;
+        width: 45%;
+        margin: 5rem auto auto auto;
     }
 
     .oferta {
@@ -185,6 +210,10 @@ html, body {
     .oferta p {
         font-size: 1.5rem;
     }
+
+    .promocion {
+        width: 14rem;
+}
 
     .promocion h3 {
         font-size: 1.5rem;
